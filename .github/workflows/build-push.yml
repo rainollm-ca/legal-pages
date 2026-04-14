@@ -44,8 +44,8 @@ jobs:
       - name: Make package public
         run: |
           PACKAGE_NAME=$(echo ${{ github.repository }} | cut -d/ -f2)
-          curl -s -X PATCH \
+          curl -s -X POST \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            https://api.github.com/user/packages/container/${PACKAGE_NAME} \
+            "https://api.github.com/user/packages/container/${PACKAGE_NAME}/adjust-visibility" \
             -d '{"visibility":"public"}'
