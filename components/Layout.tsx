@@ -6,16 +6,16 @@ export default function Layout({ children, title }: { children: ReactNode; title
   return (
     <>
       <Head>
-        <title>{title || 'Postiz'}</title>
+        <title>{title || 'DrMedFact'}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className={styles.container}>
         <header className={styles.header}>
-          <div className={styles.logo}>Postiz</div>
+          <div className={styles.logo}>DrMedFact</div>
         </header>
         <main className={styles.main}>{children}</main>
         <footer className={styles.footer}>
-          <p>&copy; {new Date().getFullYear()} Postiz. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} DrMedFact. All rights reserved.</p>
         </footer>
       </div>
     </>
