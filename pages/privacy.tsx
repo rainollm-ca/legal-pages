@@ -9,7 +9,7 @@ export default function Privacy() {
 
         <p>
           This Privacy Policy applies to <strong>DrMedFact</strong> — a medical education content platform
-          accessible at <a href="https://viral.medfact" target="_blank" rel="noopener">viral.medfact</a> and
+          accessible at <a href="https://tiktok.rainomotion.com" target="_blank" rel="noopener">tiktok.rainomotion.com</a> and
           published across social media platforms including TikTok, Instagram, and YouTube.
         </p>
 
@@ -70,7 +70,7 @@ export default function Privacy() {
           For questions about this Privacy Policy, contact us at <a href="mailto:support@rainomotion.com">support@rainomotion.com</a>
         </p>
 
-        <p><a href="https://viral.medfact">← Back to DrMedFact</a></p>
+        <p><a href="https://tiktok.rainomotion.com">← Back to DrMedFact</a></p>
       </div>
     </Layout>
   );
