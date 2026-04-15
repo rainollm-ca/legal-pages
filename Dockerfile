@@ -20,8 +20,7 @@ RUN apk add --no-cache nginx
 COPY --from=builder /app/out ./out
 
 # nginx: serve static files with proper directory index
-# / redirects to /terms; all other paths try .html fallback
-RUN printf 'server {\\n listen 80;\\n root /app/out;\\n index index.html;\\n location = / {\\n   return 301 /terms;\\n }\\n location / {\\n   try_files $uri $uri.html $uri/ =404;\\n }\\n}' > /etc/nginx/http.d/default.conf
+RUN printf 'server {\\n listen 80;\\n root /app/out;\\n index index.html;\\n location / {\\n   try_files $uri $uri.html $uri/ =404;\\n }\\n}' > /etc/nginx/http.d/default.conf
 
 EXPOSE 80
 
