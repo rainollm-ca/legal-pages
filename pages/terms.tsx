@@ -9,7 +9,7 @@ export default function Terms() {
 
         <p>
           These Terms of Service apply to <strong>DrMedFact</strong> — a medical education content platform
-          accessible at <a href="https://tiktok.rainomotion.com" target="_blank" rel="noopener">tiktok.rainomotion.com</a> and
+          accessible at <a href="https://medfact.rainomotion.com" target="_blank" rel="noopener">medfact.rainomotion.com</a> and
           published across social media platforms including TikTok, Instagram, and YouTube.
         </p>
 
@@ -63,7 +63,7 @@ export default function Terms() {
         <h2>11. Contact</h2>
         <p>For questions about these Terms, contact us at <a href="mailto:support@rainomotion.com">support@rainomotion.com</a></p>
 
-        <p><a href="https://tiktok.rainomotion.com">← Back to DrMedFact</a></p>
+        <p><a href="https://medfact.rainomotion.com">← Back to DrMedFact</a></p>
       </div>
     </Layout>
   );
