@@ -14,6 +14,11 @@ export default function Privacy() {
             This policy explains how RainoMotion Social handles information when you use
             our social-content management service or connect a TikTok account.
           </p>
+          <p className="documentIntro">
+            RainoMotion Social is operated by Rabiaa Alomar, operating under the RainoMotion
+            name in Ontario, Canada. Rabiaa Alomar is the operator and data controller
+            responsible for the processing described in this policy.
+          </p>
         </div>
       </header>
 
@@ -69,7 +74,7 @@ export default function Privacy() {
               <li>provide support, maintain service reliability, and address misuse; and</li>
               <li>comply with applicable legal obligations.</li>
             </ul>
-            <p>We do not sell personal information.</p>
+            <p>Our policy is not to sell personal information.</p>
           </div>
         </section>
 
@@ -87,8 +92,8 @@ export default function Privacy() {
             <p>
               We may also share limited information with service providers that help us
               host, secure, or operate the service, subject to appropriate obligations, or
-              when required by law. We do not share information with TikTok for unrelated
-              advertising purposes.
+              when required by law. Our policy is not to share information with TikTok for
+              unrelated advertising purposes.
             </p>
           </div>
         </section>
@@ -103,13 +108,13 @@ export default function Privacy() {
               meet applicable legal obligations, and resolve disputes.
             </p>
             <p>
-              OAuth tokens are retained while the connection is active and are removed or
-              rendered unusable when the connection is removed, the authorization is
-              revoked, or the token expires, subject to limited security or backup
-              retention. Media, captions, settings, and publishing status may remain in
-              your workspace until you delete them, close the relevant account, or ask us
-              to delete them. Residual backup copies are removed through normal backup
-              rotation unless they must be preserved for legal or security reasons.
+              Disconnecting an account or revoking its authorization stops RainoMotion
+              Social from using the associated OAuth tokens for new actions. Media,
+              captions, settings, publishing status, tokens, and account information may be
+              retained where needed to provide the service or protect its security. You may
+              request that we delete stored data as described on our Data Deletion page. We
+              handle deletion requests subject to limited retention that may be necessary
+              for legal compliance, security, fraud prevention, or dispute resolution.
             </p>
           </div>
         </section>
@@ -161,7 +166,8 @@ export default function Privacy() {
               effective date above identifies the current version.
             </p>
             <div className="contactCard">
-              <strong>Privacy questions</strong>
+              <strong>Operator and data controller: Rabiaa Alomar</strong>
+              <p>Operating under the RainoMotion name in Ontario, Canada</p>
               <a href="mailto:support@rainomotion.com">support@rainomotion.com</a>
             </div>
           </div>

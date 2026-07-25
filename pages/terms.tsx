@@ -14,6 +14,10 @@ export default function Terms() {
             These terms govern your access to and use of RainoMotion Social, an independent
             social-content management and publishing service.
           </p>
+          <p className="documentIntro">
+            RainoMotion Social is operated by Rabiaa Alomar, operating under the RainoMotion
+            name in Ontario, Canada. Questions may be sent to support@rainomotion.com.
+          </p>
         </div>
       </header>
 
@@ -157,10 +161,30 @@ export default function Terms() {
         <section className="documentSection">
           <span className="sectionNumber">09</span>
           <div className="documentContent">
+            <h2>Governing law and jurisdiction</h2>
+            <p>
+              To the extent permitted by applicable law, these Terms are governed by the
+              laws of Ontario and the applicable federal laws of Canada, without regard to
+              conflict-of-law principles.
+            </p>
+            <p>
+              Subject to any rights you have under mandatory consumer-protection or other
+              applicable law, disputes relating to these Terms or RainoMotion Social are
+              subject to the jurisdiction of the courts located in Ontario. Nothing in this
+              section removes a right to bring a claim elsewhere where applicable law does
+              not permit that right to be waived.
+            </p>
+          </div>
+        </section>
+
+        <section className="documentSection">
+          <span className="sectionNumber">10</span>
+          <div className="documentContent">
             <h2>Contact</h2>
             <p>Questions about these Terms or the service can be sent to:</p>
             <div className="contactCard">
-              <strong>RainoMotion Social Support</strong>
+              <strong>Rabiaa Alomar, RainoMotion</strong>
+              <p>Ontario, Canada</p>
               <a href="mailto:support@rainomotion.com">support@rainomotion.com</a>
             </div>
           </div>

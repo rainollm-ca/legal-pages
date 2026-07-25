@@ -108,9 +108,8 @@ export default function DataDeletion() {
             <p>
               We may retain limited information when reasonably necessary to comply with
               law, establish or defend legal claims, prevent fraud or abuse, protect
-              security, resolve disputes, or complete normal backup rotation. Any retained
-              information remains subject to appropriate safeguards and is not used for
-              unrelated purposes.
+              security, or resolve disputes. Any retained information remains subject to
+              appropriate safeguards and is not used for unrelated purposes.
             </p>
           </div>
         </section>
