@@ -56,15 +56,11 @@
 }
 
 .brandMark {
-  width: 2rem;
-  height: 2rem;
-  display: grid;
-  place-items: center;
-  border-radius: 50% 50% 50% 0.4rem;
-  background: var(--teal);
-  color: #fff;
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 1rem;
+  width: 2.625rem;
+  height: 2.625rem;
+  border: 1px solid rgba(15, 91, 111, 0.18);
+  border-radius: 0.75rem;
+  object-fit: cover;
 }
 
 .primaryNav,

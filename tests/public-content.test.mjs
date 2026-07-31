@@ -37,6 +37,14 @@ test('privacy policy names TikTok data and deletion controls', async () => {
   }
 });
 
+test('canonical RainoMotion Social icon is visible and used as browser metadata', async () => {
+  const layout = await read('components/Layout.tsx');
+
+  assert.match(layout, /href="\/rainomotion-social-icon\.png"/);
+  assert.match(layout, /src="\/rainomotion-social-icon\.png"/);
+  assert.match(layout, /alt="RainoMotion Social"/);
+});
+
 test('terms identify the service and prohibit misuse', async () => {
   const terms = await read('pages/terms.tsx');
   for (const required of ['RainoMotion Social', 'TikTok', 'automated', 'intellectual property']) {

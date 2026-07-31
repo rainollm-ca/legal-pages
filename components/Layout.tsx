@@ -29,6 +29,8 @@ export default function Layout({
         <title>{pageTitle}</title>
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="/rainomotion-social-icon.png" />
+        <link rel="apple-touch-icon" href="/rainomotion-social-icon.png" />
       </Head>
       <div className={styles.site}>
         <a className={styles.skipLink} href="#main-content">
@@ -37,9 +39,13 @@ export default function Layout({
         <header className={styles.header}>
           <div className={styles.headerInner}>
             <Link className={styles.brand} href="/" aria-label="RainoMotion Social home">
-              <span className={styles.brandMark} aria-hidden="true">
-                R
-              </span>
+              <img
+                className={styles.brandMark}
+                src="/rainomotion-social-icon.png"
+                alt="RainoMotion Social"
+                width="42"
+                height="42"
+              />
               <span>RainoMotion Social</span>
             </Link>
             <nav className={styles.primaryNav} aria-label="Primary navigation">
